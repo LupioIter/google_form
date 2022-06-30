@@ -27,16 +27,16 @@
                 <div id="view_container">
                     <div id="form_name-sur">
                         <div id="name">
-                            <input type="text" name="Name" placeholder="Имя">
+                            <input type="text" id="name_input" name="Name" placeholder="Имя">
                         </div>
                         <div id="surname">
-                            <input type="text" name="Surame" placeholder="Фамилия">
+                            <input type="text" id="surname_input" name="Surame" placeholder="Фамилия">
                         </div>
                     </div>
 
                     <div id="form_mail">
                         <div id="mail">
-                            <input type="email" name="email" value="@gmail.com">
+                            <input type="email" id="email_input" name="email" value="@gmail.com">
                         </div>
                         <div id="mail_hint">
                             <p>Можно использовать буквы латинского алфавита, цифры и точки.</p>
@@ -49,10 +49,11 @@
                     <div id="form_password">
                         <div id="password_wrapper">
                             <div id="password">
-                                <input type="password" name="password" placeholder="Пароль">
+                                <input type="password" id="password_input" name="password" placeholder="Пароль">
                             </div>
                             <div id="repeat_password">
-                                <input type="password" name="password2" placeholder="Подтвердить">
+                                <input type="password" id="check_password_input" name="password2"
+                                    placeholder="Подтвердить">
                             </div>
                         </div>
                         <div id="password_hint">
@@ -61,9 +62,10 @@
                             </p>
                         </div>
                         <div id="password_checkbox">
-                            <input type="checkbox" id="show-password">
-                            <label for="show-password">Показать пароль</label>
+                            <input type="checkbox" id="show_password">
+                            <label for="show_password">Показать пароль</label>
                         </div>
+                        <div id="message"></div>
                     </div>
                 </div>
             </div>
@@ -79,14 +81,16 @@
 
             <div id="buttons">
                 <div id="sign-in">
-                    <button>Войти</button>
+                    <a href="#"><button>Войти</button></a>
                 </div>
                 <div id="next">
-                    <button>Далее</button>
+                    <button id="button_next">Далее</button>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>

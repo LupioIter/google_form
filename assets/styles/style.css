@@ -19,7 +19,7 @@
     width: 760px;
 
     border: 1px solid rgb(223, 223, 223);
-    border-radius: 1%;
+    border-radius: 0.3rem;
 }
 
 #form_wrapper {
@@ -74,7 +74,7 @@
     color: rgb(108, 108, 108);
 
     border: 1px solid rgb(184, 184, 184);
-    border-radius: 5%;
+    border-radius: 0.3rem;
 }
 
 #surname input {
@@ -86,7 +86,7 @@
     color: rgb(108, 108, 108);
 
     border: 1px solid rgb(184, 184, 184);
-    border-radius: 5%;
+    border-radius: 0.3rem;
 }
 
 #form_mail {
@@ -105,7 +105,7 @@
     color: rgb(108, 108, 108);
 
     border: 1px solid rgb(184, 184, 184);
-    border-radius: 5%;
+    border-radius: 0.3rem;
 }
 
 #mail_hint p {
@@ -119,13 +119,10 @@
 
 #link a {
     height: 30px;
-    padding: 3px;
-    margin-left: -5px;
-
 
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 13.5px;
     color: rgb(66, 91, 221);
 
     text-decoration: none;
@@ -134,7 +131,7 @@
 #link a:hover {
     color: rgb(55, 76, 183);
     background-color: rgb(238, 240, 255);
-    border-radius: 10%;
+    border-radius: 0.3rem;
     transition: all 0.3s ease 0s;
 }
 
@@ -162,7 +159,7 @@
     font-size: 13px;
 
     border: 1px solid rgb(184, 184, 184);
-    border-radius: 5%;
+    border-radius: 0.3rem;
 }
 
 #repeat_password input {
@@ -173,7 +170,7 @@
     font-size: 13px;
 
     border: 1px solid rgb(184, 184, 184);
-    border-radius: 5%;
+    border-radius: 0.3rem;
 }
 
 #password_hint p {
@@ -263,7 +260,7 @@
 }
 
 #sign-in button:hover {
-    border-radius: 10%;
+    border-radius: 0.3rem;
     background-color: rgb(238, 240, 255);
     transition: all 0.3s ease 0s;
 }
@@ -278,7 +275,7 @@
     color: white;
 
     border: none;
-    border-radius: 10%;
+    border-radius: 0.3rem;
 
     background-color: rgb(70, 101, 255);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
